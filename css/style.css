@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container--area {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/** --------- Header --------- */
+
+header .header--area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.logo-img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+a .logo-img h4 {
+    text-transform: uppercase;
+    color: #000;
+}
+
+.logo-img h4 {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu--right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--login, .header--search {
+    margin-left: 15px;
+}
+
+/** ---------- Banner ----------  */
+
+.banner-img {
+    background-image: url('/assets/banner.png');
+    background-position: center;
+    background-size: cover;
+    height: 380px;
+}
+
+/** ---------- Area Produto ----------  */
+
+.filtros  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.filtros h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #161616;
+    line-height: 24px;
+}
+
+.filtros h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #161616;
+    line-height: 22px;
+}
+
+.area--produtos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 85px;
+}
+
+.produto {
+    flex: 1;
+}
+
+
+.img-produto img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+.titulo--produto  {
+    font-size: 22px;
+    color: #161616;
+    margin-top: 26px;
+    margin-bottom: 11px;
+}
+
+.preco--produto {
+    display: inline-block;
+    color: #5CA720;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 71px;
+    margin-left: 3px;
+}
+
+
+/** ---------- footer ----------  */
+
+.footer--area{
+    background-color: #F9F9F9;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.footer--contato a p{
+    margin-top: 10px;
+}
+
+.footer--contato a {
+    text-decoration: none;
+    color: #161616;
+}
+
+.redes--sociais {
+    display: flex;
+    margin-top: 95px;
+}
+
+.rede-face svg {
+    margin-left: 20px;
+}
